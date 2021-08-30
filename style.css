@@ -108,4 +108,12 @@ a::before {
 
 a:hover::before {
     transform: scaleX(1);
-  }
+}
+
+/*
+Main Feature & Slideshow
+*/
+.feature {
+    background-color: aquamarine;
+    margin: 0 7rem 0 7rem;
+} 
