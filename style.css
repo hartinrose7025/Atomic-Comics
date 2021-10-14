@@ -9,7 +9,6 @@ Body
 */
 body {
     background-color: #F8F8FF;
-    /*background-color: lightgray;*/
     font-family: 'Rajdhani', sans-serif;
     width: 100%;
 }
@@ -58,7 +57,6 @@ Navigation Bar
 nav {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #e3e3e3;
     border-top: 1px solid #e3e3e3;
     width: 100%;
     display: flex;
@@ -111,17 +109,11 @@ a:hover::before {
 }
 
 /*
-Main Feature & Slideshow
+Main Feature
 */
-.main-body {
-    background-color: aquamarine;
-    margin: 3rem 7rem 0 7rem;
-}
-
-.main-body h1 {
-    font-size: 5em;
-}
-
-.slideshow {
-    float: left;
+#main-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
