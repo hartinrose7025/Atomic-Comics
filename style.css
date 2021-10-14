@@ -113,7 +113,15 @@ a:hover::before {
 /*
 Main Feature & Slideshow
 */
-.feature {
+.main-body {
     background-color: aquamarine;
-    margin: 0 7rem 0 7rem;
-} 
+    margin: 3rem 7rem 0 7rem;
+}
+
+.main-body h1 {
+    font-size: 5em;
+}
+
+.slideshow {
+    float: left;
+}
