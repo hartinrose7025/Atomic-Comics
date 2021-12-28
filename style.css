@@ -111,9 +111,14 @@ a:hover::before {
 /*
 Main Feature
 */
+.main {
+    background-color: cadetblue;
+    margin: 20px;
+}
+
 #main-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 10px;
 }
